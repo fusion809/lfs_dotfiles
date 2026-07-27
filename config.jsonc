@@ -46,7 +46,7 @@
     {
       "type": "command",
       "key": " ",
-      "text": "~/lfs-scripts/packages_no.sh"
+      "text": "~/lfs-scripts/packages_status.sh"
     },
     {
 	    "type": "display",
