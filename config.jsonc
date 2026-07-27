@@ -16,8 +16,14 @@
     "title",
     "separator",
     {
-	    "type": "os",
-	    "key": " "
+	    "type": "command",
+	    "key": " ",
+      	    "text": "~/lfs-scripts/os_long_version.sh"
+    },
+    {
+	    "type": "command",
+	    "key": "󰊢 ",
+      	    "text": "~/lfs-scripts/inventory_commit_no_long.sh"
     },
     {
 	    "type": "host",
@@ -46,7 +52,7 @@
     {
       "type": "command",
       "key": " ",
-      "text": "~/lfs-scripts/packages_status.sh"
+      "text": "~/lfs-scripts/packages_no.sh"
     },
     {
 	    "type": "display",
