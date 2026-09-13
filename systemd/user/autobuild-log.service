@@ -1,0 +1,10 @@
+[Unit]
+Description=Autobuild logger
+
+[Service]
+ExecStart=%h/lfs-scripts/autobuild-log.sh
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=default.target
