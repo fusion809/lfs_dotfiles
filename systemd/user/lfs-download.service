@@ -1,8 +1,8 @@
 [Unit]
-Description=Autobuild logger
+Description=LFS book downloader
 
 [Service]
-ExecStart=%h/lfs-scripts/autobuild-log.sh
+ExecStart=%h/lfs-scripts/lfs-downloader.sh
 Restart=always
 RestartSec=1
 
