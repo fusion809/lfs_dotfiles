@@ -1,0 +1,9 @@
+[Unit]
+Description=System updater
+
+[Service]
+Type=oneshot
+ExecStart=%h/lfs-scripts/updates_check_and_run.sh
+
+[Install]
+WantedBy=default.target
