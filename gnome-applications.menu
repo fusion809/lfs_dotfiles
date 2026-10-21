@@ -104,7 +104,7 @@
   </Menu>
 -->
   <Menu>
-	<Name>Code editor</Name>
+	<Name>Code editors</Name>
 	<Directory>Code-editor.directory</Directory>
 	<Include>
 		<Or>
@@ -140,9 +140,10 @@
       </And>
     </Include>
     <Exclude>
-	<And>
+	<Or>
 		<Category>Science</Category>
-	</And>
+		<Category>Math</Category>
+	</Or>
     </Exclude>
   </Menu> <!-- End Education -->
 
