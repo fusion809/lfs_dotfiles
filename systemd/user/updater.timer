@@ -1,8 +1,8 @@
 [Unit]
-Description=Run updatec every 10 minutes
+Description=Run updatec every 5 minutes
 
 [Timer]
-OnCalendar=*:0/10
+OnCalendar=*:0/5
 Persistent=true
 Unit=updater.service
 
