@@ -3,7 +3,7 @@ Description=woxi-git updater
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash %h/lfs-scripts/woxi_update.sh
+ExecStart=/bin/bash %h/lfs-scripts/woxi_updater.sh
 
 [Install]
 WantedBy=default.target
